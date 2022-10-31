@@ -1,0 +1,155 @@
+.app{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color:var(--background-color);
+}
+
+.app > h1 {
+    font-size: 50px;
+    color:var(--blue-color);
+    text-align: center;
+}
+
+.app > div{
+    min-height: 300px;
+    width: max(300px,55%);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 2px rgb(0,0,0,0.2),-1px -1px 4px -2px rgb(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+}
+
+.app > div > h2{
+    text-align: center;
+    color:var(--blue-color);
+}
+
+.app > div > p{
+    text-align: center;
+    line-height:1.5;
+}
+
+.connecAccount{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.connecAccount > p{
+    text-align:center;
+}
+
+.connecAccount > div{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.connecAccount > div > button{
+    background-color: var(--blue-color);;
+    color:var(--white-color);
+    padding:10px 35px;
+    border:1px solid var(--blue-color);
+    outline:none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.connecAccount > div > button:hover{
+    background-color: var(--white-color);;
+    color:var(--blue-color);
+}
+
+.deployerOrAttacher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.deploy{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.attach{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.attach > div:nth-child(2){
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.attach > div:nth-child(2) > textarea{
+    width:250px;
+    min-height: 100px;
+    max-width: 300px;;
+    resize: vertical;
+    outline:none;
+    border:1px solid var(--blue-color);
+    padding:5px;
+    border-radius: 5px;
+}
+
+.waiting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acceptTerms{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.acceptTerms {
+    text-align: center;
+}
+
+.getHand{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.getHand > button{
+    min-width: 100px !important;
+}
+
+.disabled{
+    border:1px solid #e8e8e8 !important;
+    background-color:#e8e8e8 !important;
+    color:var(--white-color) !important;
+    cursor:not-allowed !important;
+
+}
+.count{
+    font-size: 20px;
+    color:var(--blue-color);
+    font-weight:bold;
+}
