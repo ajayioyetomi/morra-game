@@ -1,5 +1,6 @@
 # THE MORRA GAME
 - About Project
+- Features
 - Acknowledgement
 - How to get started
 - Commands
@@ -18,6 +19,13 @@ Some variants of morra involve money, with the winner earning an amount equal to
 
 For more about [Morra Click Here](https://en.wikipedia.org/wiki/Morra_(game))
 
+## Features
+- React Interface (Functional Components)
+- Deployer and Attacher View and Functionality
+- Wager control and determination
+- Getting Hand and Num view and Functionality 
+- Loop and Draw 
+- Announcing Winner
 
 ## Acknowledgements
 I want to acknowledge Nick Stanford, JP Miller, Emmanuel Agbavwe And the entire Reach team and its community. Thank you for the pointer and tutorials.
