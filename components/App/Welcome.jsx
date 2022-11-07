@@ -5,7 +5,8 @@ import css from '../../css/app.module.css';
 let start = false;
 let count = 0;
 let counter = null;
-let reverseCount = 20;
+const STOPPAGE = 10;
+let reverseCount = STOPPAGE;
 
 const Welcome = () => {
   const {setViews} = useReach();
@@ -19,7 +20,7 @@ const Welcome = () => {
         if(spanRef && spanRef.current){
           spanRef.current.innerHTML = `${reverseCount}`;
         }
-        if(count >=20){
+        if(count >= STOPPAGE){
           clearInterval(counter);
           setViews({
             view:"ConnectAccount",

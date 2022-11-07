@@ -20,6 +20,7 @@ const Deploy = () => {
   },[])
   return (
     <div className={css.deploy}>
+       <p>set the wager amount in the input below</p>
        <input disabled={disabled} value={wager} min='1' max='5' type="number" onChange={(e)=>handleWager(e)} />
        <div>Deployer, Pay to Deploy:  <strong>{wager}</strong> {standardUnit}</div>
        <div>
