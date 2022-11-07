@@ -42,5 +42,5 @@ After getting your machine ready, the commands to run are:
 ./reach react: To start react development server and run the application
 
 ## About Author
-I'm a passionate, experienced, and resourceful full-stack developer. I'm currently exploring blockchain and web3 with Reach and solidity.
+My name is Ajayi Taiwo Oyetomi, I'm a passionate, experienced, and resourceful full-stack developer. I'm currently exploring blockchain and web3 with Reach and solidity.
 
