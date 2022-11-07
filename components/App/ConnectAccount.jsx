@@ -11,9 +11,7 @@ const ConnectAccount = () => {
   return (
     <div className={css.connecAccount}>
 			<p>
-        Click the button below and<br/>
-        Please wait while we connect to your account. If this takes more than a
-			few seconds, there may be something wrong.
+        Click the button below to connect to your account. If this takes more than a few seconds, there may be something wrong.
       </p>
 			<div>
 				<Button click={connecAccount} text='Connect Algo Wallet'/>

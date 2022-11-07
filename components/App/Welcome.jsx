@@ -32,7 +32,7 @@ const Welcome = () => {
   },[])
   return (
     <>
-      <div >Game starts in: <span className={css.count} ref={spanRef}>20</span></div>
+      <div >Game starts in: <span className={css.count} ref={spanRef}>10</span></div>
     </>
   )
 }
