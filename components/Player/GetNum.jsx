@@ -27,7 +27,7 @@ const GetNum = () => {
     setTitle(<>
     Guess the total numbers of Fingers played all together</>);
     setMessage(<>Select between 0 - 10 <br/><br/>Note: You will not be allowed to select any number lower than the number of finger you play yourself.</>);
-    console.log(hand);
+    //console.log(hand);
   },[])
   return (
     <div className={css.getHand}>

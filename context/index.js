@@ -78,11 +78,13 @@ const AppContextProvider = ({children}) =>{
 
     const selectAttacher = ()=>{
         setMode({name:"Attacher WINS"})
+        console.log('I am Attacher')
         setViews({view:"Attach",wrapper:"AttacherWrapper"});
     }
 
     const selectDeployer = ()=>{
         setMode({name:"Deployer WINS"})
+        console.log('I am Deployer')
         setViews({view:"Deploy",wrapper:"DeployerWrapper"})
     }
 
@@ -111,6 +113,7 @@ const AppContextProvider = ({children}) =>{
 
     const seeOutcome = (i) =>{
         const winner = parseInt(i);
+        console.log(intToOutcome[winner])
         setOutcome(intToOutcome[winner])
         setViews({view:"Done"});
     }
