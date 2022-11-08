@@ -9,7 +9,7 @@ const Done = () => {
     setMessage(<>{mode.name === outcome?'!!!Congratulations!!!':'Better lucky next time'}</>)
   },[])
   return (
-    <div><strong>{outcome}</strong></div>
+    <div><strong>{mode.name === outcome?'YOU WON':outcome}</strong></div>
   )
 }
 
