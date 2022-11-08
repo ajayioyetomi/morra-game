@@ -11,3 +11,8 @@
     background-color: var(--white-color);;
     color:var(--blue-color);
 }
+
+.btn:disabled{
+    background-color:#d9d9d9 !important;
+    color:var(--white-color) !important ;
+}
